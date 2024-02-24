@@ -1,0 +1,15 @@
+<h1 i18n> Welcome to the Shop</h1>
+<h2 i18n="Meaning | Description @@Title"> Products </h2>
+
+<input i18n-placeholder placeholder="Search products" #box (keyup.enter)="search(box.value)"> 
+{{ filteredProducts | json }}
+
+<p i18n> You have { filteredProducts.length, plural, =0 {no} =1 {one} other {many} } product(s) </p>
+
+<select [(ngModel)]="gender">
+  <option i18n value="">Select gender</option>
+  <option i18n value="male">Male</option>
+  <option i18n value="female">Female</option>
+</select>
+
+<p i18n> For { gender, select, male {Men} female {Women} } </p>
