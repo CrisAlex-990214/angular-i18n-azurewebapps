@@ -1,14 +1,14 @@
 {
   "locale": "es",
   "translations": {
-    "1665589448153187110": " Bienvenidos to the Shop",
-    "Title": " Products ",
-    "7743479397215344247": "Buscar products",
-    "4462261147929290329": " You have {$ICU} product(s) ",
-    "3148819200742148543": "{VAR_PLURAL, plural, =0 {cero} =1 {un} other {varios}}",
-    "5490079901844780641": "Select genero",
-    "8012344910054029733": "Male",
-    "5667840900782067941": "Female",
+    "1665589448153187110": " Bienvenidos a la tienda",
+    "Title": " Productos ",
+    "7743479397215344247": "Buscar productos",
+    "4462261147929290329": " TIenes {$ICU} producto(s) ",
+    "3148819200742148543": "{VAR_PLURAL, plural, =0 {cero} =1 {uno} other {varios}}",
+    "5490079901844780641": "Selecciona género",
+    "8012344910054029733": "Masculino",
+    "5667840900782067941": "Femenino",
     "9070454413924274810": " For {$ICU} ",
     "5006573431083130627": "{VAR_SELECT, select, male {Hombres} female {Mujeres}}"
   }
