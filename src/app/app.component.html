@@ -13,3 +13,8 @@
 </select>
 
 <p i18n> For { gender, select, male {Men} female {Women} } </p>
+
+<button style="background-color: yellow; font-size: large;" (click)="switchLang()">
+  @if(locale == 'en-US') { ES }
+  @else { EN-US }
+</button>
